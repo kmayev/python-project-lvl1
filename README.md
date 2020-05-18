@@ -3,3 +3,4 @@ Read more about Hexlet (in Russian).
 https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=python-package
 I'm using Semantic Versioning
 http://semver.org/lang/ru/
+<a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
