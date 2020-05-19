@@ -77,8 +77,8 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "fd2be3f08c663450dbe7bb5634662bd7f7efdea56fa6f96831f32a0d7f16c013"
-python-versions = "3.7.7"
+content-hash = "9de3ebb969c6f7f4a224dc01d60634f2f47d98c40c21cb55bf2867291a3e2c6b"
+python-versions = "^3.6"
 
 [metadata.files]
 flake8 = [
