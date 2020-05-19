@@ -10,10 +10,12 @@ python:
 before_install:
   # make depends on poetry
   - pip install poetry
-#  - poetry add --dev flake8
+
 
 install:
   - make install
   
 script:
   - make lint
+
+#  - poetry add --dev flake8  
