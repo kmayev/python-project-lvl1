@@ -1,6 +1,6 @@
 language: python
-os:
-  - osx
+#os:
+#  - osx
 python:
   # we want to test our package on several versions of Python
   - 3.6
