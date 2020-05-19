@@ -1,15 +1,19 @@
 language: python
+os:
+  - osx
 python:
   # we want to test our package on several versions of Python
   - 3.6
   - 3.7
+  - 3.8
 
 before_install:
   # make depends on poetry
   - pip install poetry
+  - poetry add --dev flake8
 
 install:
-  #  - make configure
-
+  - make install
+  
 script:
   - make lint
