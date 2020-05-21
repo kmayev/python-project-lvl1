@@ -19,3 +19,6 @@ How to install and run brain-even:
 
 How to install and run brain-games and brain-calc:
 <a href="https://asciinema.org/a/VPNmtjbLFHx6U6KKIZaMDNA5f" target="_blank"><img src="https://asciinema.org/a/VPNmtjbLFHx6U6KKIZaMDNA5f.svg" /></a>
+
+How to install and run brain-gcd:
+<a href="https://asciinema.org/a/vSxvF9FosMkbIKbSgd4fhy0m8" target="_blank"><img src="https://asciinema.org/a/vSxvF9FosMkbIKbSgd4fhy0m8.svg" /></a>
