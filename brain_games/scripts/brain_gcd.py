@@ -9,7 +9,7 @@ def main():
 
     """Run an example code."""
     cli.welcome()
-    print('Find the greatest common divisor of given numbers.', end = '\n\n')
+    print('Find the greatest common divisor of given numbers.', end='\n\n')
     calc.calc(cli.welcome_user(), 2)
 
 

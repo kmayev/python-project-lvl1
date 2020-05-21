@@ -9,7 +9,7 @@ def main():
 
     """Run an example code."""
     cli.welcome()
-    print('What is the result of the expression?', end ='\n\n')
+    print('What is the result of the expression?', end='\n\n')
     calc.calc(cli.welcome_user(), 1)
 
 
