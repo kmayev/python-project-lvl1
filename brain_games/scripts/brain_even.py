@@ -2,16 +2,15 @@
 # -*- coding:utf-8 -*-
 """An example script."""
 from brain_games import cli
-from brain_games import parity
+from brain_games.games import parity
 
 
 def main():
 
     """Run an example code."""
-    print('Welcome to the Brain Games!')
+    cli.welcome()
     print('Answer "yes" if number even otherwise answer "no".')
-    uname = cli.welcome_user()
-    parity.parity(uname)
+    parity.parity(cli.welcome_user())
 
 
 if __name__ == '__main__':

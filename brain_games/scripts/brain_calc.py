@@ -2,13 +2,15 @@
 # -*- coding:utf-8 -*-
 """An example script."""
 from brain_games import cli
+from brain_games.games import calc
 
 
 def main():
 
     """Run an example code."""
     cli.welcome()
-    cli.welcome_user()
+    print('What is the result of the expression?')
+    calc.calc(cli.welcome_user())
 
 
 if __name__ == '__main__':

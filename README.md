@@ -14,5 +14,8 @@ I'm using Semantic Versioning http://semver.org/lang/ru/
 
 [![Build Status](https://travis-ci.com/kmayev/python-project-lvl1.svg?branch=master)](https://travis-ci.com/kmayev/python-project-lvl1)
 
-How to install and run:
+How to install and run brain-even:
 <a href="https://asciinema.org/a/QCOPEQ7gJaVBk3Jiif1mhQujD" target="_blank"><img src="https://asciinema.org/a/QCOPEQ7gJaVBk3Jiif1mhQujD.svg" /></a>
+
+How to install and run brain-games and brain-calc:
+<a href="https://asciinema.org/a/VPNmtjbLFHx6U6KKIZaMDNA5f" target="_blank"><img src="https://asciinema.org/a/VPNmtjbLFHx6U6KKIZaMDNA5f.svg" /></a>
