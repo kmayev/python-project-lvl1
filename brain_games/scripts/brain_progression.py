@@ -9,8 +9,8 @@ def main():
 
     """Run an example code."""
     cli.welcome()
-    print('Find the greatest common divisor of given numbers.', end='\n\n')
-    calc.calc(cli.welcome_user(), 'NOD')
+    print('What number is missing in the progression?', end='\n\n')
+    calc.calc(cli.welcome_user(), 'PRO')
 
 
 if __name__ == '__main__':

@@ -22,3 +22,6 @@ How to install and run brain-games and brain-calc:
 
 How to install and run brain-gcd:
 <a href="https://asciinema.org/a/vSxvF9FosMkbIKbSgd4fhy0m8" target="_blank"><img src="https://asciinema.org/a/vSxvF9FosMkbIKbSgd4fhy0m8.svg" /></a>
+
+How to install and run brain-progression:
+<a href="https://asciinema.org/a/BccX1S6YWS01pNUvusEi1YWOx" target="_blank"><img src="https://asciinema.org/a/BccX1S6YWS01pNUvusEi1YWOx.svg" /></a>
