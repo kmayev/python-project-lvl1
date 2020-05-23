@@ -1,7 +1,6 @@
 from brain_games import cli
 
 
-# @property  # noqa: C901
 def parity(user, type):
 
     i = 0
