@@ -25,3 +25,6 @@ How to install and run brain-gcd:
 
 How to install and run brain-progression:
 <a href="https://asciinema.org/a/BccX1S6YWS01pNUvusEi1YWOx" target="_blank"><img src="https://asciinema.org/a/BccX1S6YWS01pNUvusEi1YWOx.svg" /></a>
+
+How to install and run brain-prime:
+<a href="https://asciinema.org/a/fF51bwekIRiZ6E2roczW8xBNG" target="_blank"><img src="https://asciinema.org/a/fF51bwekIRiZ6E2roczW8xBNG.svg" /></a>
