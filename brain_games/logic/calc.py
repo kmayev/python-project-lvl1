@@ -1,4 +1,4 @@
-from brain_games import cli
+from brain_games.logic import cli
 import random
 
 
@@ -18,10 +18,10 @@ def calc(user, si):
             result = nod(a1, a2)
         elif si == 'PRO':
             start = cli.cli_random()//100
-            shag = cli.cli_random()//100
-            kolvo = 10
-            dirka = random.randint(0, kolvo-1)
-            result, quest_str = prog(start, shag, kolvo, dirka)
+            step = cli.cli_random()//100
+            qua = 10
+            gap = random.randint(0, qua-1)
+            result, quest_str = progression_generate(start, step, qua, gap)
         answer = cli.prn_question(quest_str)
         if not answer.isdigit() or int(answer) != result:
             cli.prn_wrong(answer, result)
@@ -35,11 +35,11 @@ def calc(user, si):
 
 def do_it(a1, a2, si):
     if si == '+':
-        return a1 + a2, None
+        return a1 + a2
     elif si == '-':
-        return a1 - a2, None
+        return a1 - a2
     elif si == '*':
-        return a1 * a2, None
+        return a1 * a2
 
 
 def nod(a1, a2):
@@ -51,12 +51,12 @@ def nod(a1, a2):
     return a1 + a2
 
 
-def prog(start, shag, kolvo, dirka):
+def progression_generate(start, step, quantity, gap):
     prog = ''
     i = 0
     outer = 0
-    for iter in range(start, shag * kolvo + start, shag):
-        if i == dirka:
+    for iter in range(start, step * quantity + start, step):
+        if i == gap:
             prog += '.. '
             outer = iter
         else:

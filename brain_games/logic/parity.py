@@ -1,4 +1,4 @@
-from brain_games import cli
+from brain_games.logic import cli
 
 
 def parity(user, type):

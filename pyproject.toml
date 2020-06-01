@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kmayev_brain_games"
-version = "0.7.1"
+version = "0.8.0"
 description = "This Brain Games project is created as a part of education process on Hexlet portal"
 authors = ["Konstantin Mayev <k.mayev@gmail.com>"]
 packages = [

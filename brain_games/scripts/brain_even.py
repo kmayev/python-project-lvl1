@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 """An example script."""
-from brain_games import cli
-from brain_games.games import parity
+from brain_games.games import b_even
 
 
 def main():
-
-    """Run an example code."""
-    cli.welcome()
-    print('Answer "yes" if number even otherwise answer "no".')
-    parity.parity(cli.welcome_user(), 'EVEN')
+    b_even.even_start()
 
 
 if __name__ == '__main__':
