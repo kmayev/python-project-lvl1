@@ -2,10 +2,9 @@ from brain_games.logic import cli
 
 
 def parity(user, type):
-
-    i = 0
     YES = 'yes'
     NO = 'no'
+    i = 0
     while i < 3:
         number = cli.cli_random()
         answer = cli.prn_question(number)
