@@ -1,8 +1,5 @@
 <a href="https://codeclimate.com/github/kmayev/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/06967d6e483291247be1/maintainability" /></a>
 
-<a href="https://codeclimate.com/github/kmayev/python-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/06967d6e483291247be1/test_coverage" /></a>
-
-
 [![Build Status](https://travis-ci.com/kmayev/python-project-lvl1.svg?branch=master)](https://travis-ci.com/kmayev/python-project-lvl1)
 
 This Brain Games project is created as a part of education process on Hexlet portal by Konstantin Mayev.
