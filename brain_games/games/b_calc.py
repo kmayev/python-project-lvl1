@@ -1,11 +1,11 @@
-from brain_games import engine
-from brain_games import cli
+from brain_games.cli import start
+from random import randint,  choice
 
 
 def function():
-    a1 = cli.cli_random()
-    a2 = cli.cli_random()
-    oper = cli.rand_s()
+    a1 = randint(0, 9999)
+    a2 = randint(0, 9999)
+    oper = choice(['+', '-', '*'])
     quest_str = str(a1) + oper + str(a2)
     if oper == '+':
         result = a1 + a2
@@ -18,4 +18,4 @@ def function():
 
 def calc_start():
     start_question = 'What is the result of the expression?'
-    engine.start(start_question, function)
+    start(start_question, function)

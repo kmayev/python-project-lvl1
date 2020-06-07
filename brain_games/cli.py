@@ -1,42 +1,22 @@
 import prompt
-import random
 
 
-def welcome_user():
-    name = prompt.string('May I have your name? ')
-    print('Hello, {}!'.format(name), end='\n\n')
-    return name
-
-
-def welcome():
-    print('Welcome to the Brain Games!')
-
-
-def prn_winner(user):
-    print('Congradulations, {}!'.format(user))
-
-
-def prn_try(user):
-    print('Let\'s try again, {}!'.format(user))
-
-
-def prn_wrong(ans1, ans2):
-    print('\'{0}\' is wrong answer ;(. Correct answer was \'{1}\'.'
-          .format(ans1, ans2))
-
-
-def prn_correct():
-    print('Correct!')
-
-
-def prn_question(question):
-    print('Question: {}'.format(question))
-    return prompt.string('Your answer? ')
-
-
-def cli_random():
-    return random.randint(0, 9999)
-
-
-def rand_s():
-    return random.choice(['+', '-', '*'])
+def start(title, function):
+    print('Welcome to the Brain Games!\n'+title, end='\n\n')
+    u_name = prompt.string('May I have your name? ')
+    print('Hello, {}!'.format(u_name), end='\n\n')
+    if function is None:
+        return
+    i = 0
+    while i < 3:
+        quest_str, result = function()
+        print('Question: {}'.format(quest_str))
+        answer = prompt.string('Your answer? ')
+        if answer != result:
+            print('\'{0}\' is wrong answer ;(. Correct answer \
+was \'{1}\'\nLet\'s try again, {2}!' .format(answer, result, u_name))
+            return
+        else:
+            print('Correct!')
+            i += 1
+    print('Congradulations, {}!'.format(u_name))

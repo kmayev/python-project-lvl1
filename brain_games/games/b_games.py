@@ -1,5 +1,5 @@
-from brain_games import engine
+from brain_games.cli import start
 
 
 def games_start():
-    engine.start('', None)
+    start('', None)

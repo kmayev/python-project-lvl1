@@ -1,9 +1,9 @@
-from brain_games import engine
-from brain_games import cli
+from brain_games.cli import start
+from random import randint
 
 
 def function():
-    quest_str = cli.cli_random()
+    quest_str = randint(0, 9999)
     result = 'yes' if isprime(quest_str) else 'no'
     return quest_str, result
 
@@ -20,4 +20,4 @@ def isprime(n):
 def prime_start():
     start_question = 'Answer "yes" if given number is prime. \
 Otherwise answer "no".'
-    engine.start(start_question, function)
+    start(start_question, function)

@@ -1,11 +1,10 @@
-from brain_games import engine
-from brain_games import cli
+from brain_games.cli import start
 from random import randint
 
 
 def function():
-    start = cli.cli_random()//100
-    step = cli.cli_random()//100
+    start = randint(0, 9999)//100
+    step = randint(0, 9999)//100
     qua = 10
     gap = randint(0, qua-1)
     return progression_generate(start, step, qua, gap)
@@ -27,4 +26,4 @@ def progression_generate(start, step, quantity, gap):
 
 def progression_start():
     start_question = 'What number is missing in the progression?'
-    engine.start(start_question, function)
+    start(start_question, function)
