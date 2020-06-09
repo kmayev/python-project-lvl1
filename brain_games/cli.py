@@ -5,10 +5,9 @@ def start(title, function):
     print('Welcome to the Brain Games!\n'+title, end='\n\n')
     u_name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(u_name), end='\n\n')
-    if function is None:
-        return
+    NUMBER_OF_ATTEMPTS = 3
     i = 0
-    while i < 3:
+    while i < NUMBER_OF_ATTEMPTS:
         quest_str, result = function()
         print('Question: {}'.format(quest_str))
         answer = prompt.string('Your answer? ')
