@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.com/kmayev/python-project-lvl1.svg?branch=master)](https://travis-ci.com/kmayev/python-project-lvl1)
 
-						BRAIN GAMES
-						==================
+BRAIN GAMES
+==================
 *****
 This **Brain Games** project is created as a part of education process on **Hexlet** portal by Konstantin Mayev.
 
