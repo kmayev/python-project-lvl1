@@ -2,16 +2,35 @@
 
 [![Build Status](https://travis-ci.com/kmayev/python-project-lvl1.svg?branch=master)](https://travis-ci.com/kmayev/python-project-lvl1)
 
-This Brain Games project is created as a part of education process on Hexlet portal by Konstantin Mayev.
+h1 Brain Game
+==================
+This **Brain Games** project is created as a part of education process on Hexlet portal by Konstantin Mayev.
 
 Read more about Hexlet (in Russian).
 
 https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=python-package
 
 I'm using Semantic Versioning http://semver.org/lang/ru/
+***
 
 
-How to install and run brain-even:
+"**Brain Games**" is a set of mini-games launched from the console. To win the game, you need to answer correctly 3 questions.
+***
+
+#### The games are:
+##### brain-calc
+"Calculator". The user is shown a random mathematical expression that needs to be calculated and written down the correct answer.
+##### brain-even
+"Parity Check". The user is shown a random number. And he needs to answer yes if the number is even, or no if it is odd.
+##### brain-gcd
+"The greatest common factor (GCD)." The user is shown two random numbers. The user must calculate and enter the largest common divisor of these numbers.
+##### brain-prime
+"Is it a prime?" The user is shown a random number. And he needs to answer yes if the number is prime, or no if the opposite.
+##### brain-progression
+"Arithmetic progression." A series of numbers is shown, forming an arithmetic progression, replacing any of the numbers with two points. The player must determine this number.
+***
+
+#### How to install and run brain-even:
 <a href="https://asciinema.org/a/QCOPEQ7gJaVBk3Jiif1mhQujD" target="_blank"><img src="https://asciinema.org/a/QCOPEQ7gJaVBk3Jiif1mhQujD.svg" /></a>
 
 How to install and run brain-games and brain-calc:

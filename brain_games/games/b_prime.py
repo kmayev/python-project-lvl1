@@ -2,10 +2,10 @@ from brain_games.cli import start
 from random import randint
 
 
-def prime_data_prepare():
-    quest_str = randint(0, 9999)
-    result = 'yes' if is_prime(quest_str) else 'no'
-    return quest_str, result
+def prepare_data():
+    question = randint(0, 9999)
+    result = 'yes' if is_prime(question) else 'no'
+    return question, result
 
 
 def is_prime(n):
@@ -19,7 +19,7 @@ def is_prime(n):
     return d * d > n
 
 
-def prime_start():
+def start_prime():
     start_question = 'Answer "yes" if given number is prime. \
 Otherwise answer "no".'
-    start(start_question, prime_data_prepare)
+    start(start_question, prepare_data)
