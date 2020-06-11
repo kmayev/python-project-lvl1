@@ -9,6 +9,8 @@ This **Brain Games** project is created as a part of education process on **Hexl
 
 Read more about [**Hexlet**] (https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=python-package) (in Russian).
 
+[Мой сайт](http://webdesign.ru.net)
+
 https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=python-package
 
 I'm using Semantic Versioning http://semver.org/lang/ru/
